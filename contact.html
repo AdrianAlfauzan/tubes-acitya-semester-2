@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Acitya</title>
+
+  <!-- CSS AWAL -->
+  <link rel="stylesheet" href="ASSETS/CSS/index.css" />
+  <link rel="stylesheet" href="ASSETS/CSS/contact.css" />
+  <!-- CSS AKHIR -->
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <!-- /BOOTSTRAP -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">
+      <img src="./ASSETS/images/ACITYA.jpg" alt="logo">
+    </div>
+    <div class="judul">
+      <h4><a href="FormLogin.html">ACITYA</a></h4>
+    </div>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      <li><a href="artikel.html">ARTIKEL</a></li>
+      <li><a href="order.html">ORDER</a></li>
+      <li><button class="btn" id="btn" style="background-color: #16161a; color: orange;">
+          <i class="bx bx-user" style="font-size: 20px;"></i>
+
+          <i class="bx bx-chevron-down" id="arrow"></i>
+        </button>
+        <div class="dropdown" style="background-color: #16161a;" id="dropdown">
+          <a style="color: orange;" href="profilesetting.html">
+            <i class="bx bxs-user-account"></i>
+            Profile Settings
+          </a>
+          <a style="color: orange;" href="FormLogin.html">
+            <i class="bx bx-power-off"></i>
+            Logout
+          </a>
+        </div>
+      </li>
+    </ul>
+    <div class="menu-toggle">
+      <input type="checkbox">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+  <!-- /NAVBAR -->
+
+  <!-- CONTACT AWAL -->
+  <div class="wadah_kontak">
+    <section id="contact">
+      <h1 class="section-header">Contact</h1>
+
+      <div class="contact-wrapper">
+        <!-- Left contact page -->
+
+        <form>
+          <input name="name" type="text" class="feedback-input" placeholder="Name" />
+          <input name="email" type="text" required class="feedback-input" placeholder="Email " />
+          <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+          <input type="submit" value="SUBMIT" />
+        </form>
+
+        <!-- Left contact page -->
+
+        <div class="direct-contact-container">
+          <ul class="contact-list">
+            <li class="list-item">
+              <i class="fa fa-map-marker fa-2x"><span class="contact-text place">Bandung, Jawa Barat</span></i>
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                    href="https://api.whatsapp.com/send?phone=089578332222" title="Give me a call">(+62)
+                    895-2323-7450</a></span></i>
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:stalkerxstalk@gmail.com"
+                    title="Send me an email">stalkerxstalk@gmail.com</a></span></i>
+            </li>
+          </ul>
+
+          <hr />
+          <ul class="social-media-list">
+            <li>
+              <a href="#" target="_blank" class="contact-icon"> <i class="fa fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="contact-icon"> <i class="fa fa-codepen" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="contact-icon"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="contact-icon"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+          <hr />
+
+          <div class="copyright">&copy; ALL OF OUR COMMUNICATIONS</div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- CONTACT AKHIR -->
+
+  <!-- FOOTER AWAL -->
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <img src="./ASSETS/images/Lambang-Unjani.png" style="margin:-10px 150px 30px" />
+      <p class="footer-company-name">© 2021 By Adrian Musa Alfauzan</p>
+    </div>
+
+    <div class="footer-center">
+      <div class="map">
+        <i class="fa fa-map-marker"></i>
+        <p><span>808 - Kota Bandung, Bldg. No. K - 5, Sector - 33</span> Bandung, Jawa Barat - 400710</p>
+      </div>
+
+      <div style="margin-left: -163px;">
+        <i class="fa fa-phone"></i>
+        <p>+62 878 2112 1706</p>
+      </div>
+      <div style="margin-left: -108px;">
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:stalkerxstalk@gmail.com">stalkerxstalk@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span style="margin-left: -20px;">About the company</span>
+        We offer training and skill building courses across Technology, Design, Management, Science and
+        Humanities.
+      </p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER AKHIR -->
+  <script src="ASSETS/JS/contact.js"></script>
+  <script src="ASSETS/JS/profile.js"></script>
+  <script src="ASSETS/JS/responsivenavbar.js"></script>
+</body>
+
+</html>

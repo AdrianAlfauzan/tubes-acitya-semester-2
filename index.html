@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RESPONSIVE WEB</title>
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="ASSETS/CSS/index.css" />
+  <!-- /MY CSS -->
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <!-- /GOOGLE FONT -->
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+  <!-- /BOOTSTRAP -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">
+      <img src="./ASSETS/images/ACITYA.jpg" alt="logo">
+    </div>
+    <div class="judul">
+      <h4><a href="FormLogin.html">ACITYA</a></h4>
+    </div>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      <li><a href="artikel.html">ARTIKEL</a></li>
+      <li><a href="order.html">ORDER</a></li>
+      <li><button class="btn" id="btn" style="background-color: #16161a; color: orange;">
+          <i class="bx bx-user" style="font-size: 20px;"></i>
+
+          <i class="bx bx-chevron-down" id="arrow"></i>
+        </button>
+        <div class="dropdown" style="background-color: #16161a;" id="dropdown">
+          <a style="color: orange;" href="profilesetting.html">
+            <i class="bx bxs-user-account"></i>
+            Profile Settings
+          </a>
+          <a style="color: orange;" href="FormLogin.html">
+            <i class="bx bx-power-off"></i>
+            Logout
+          </a>
+        </div>
+      </li>
+    </ul>
+    <div class="menu-toggle">
+      <input type="checkbox">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+
+  <!-- /NAVBAR -->
+
+  <!-- CAROUSEL -->
+  <div class="slider_container">
+    <div class="search-box">
+      <button class="btn-search">
+        <i class="bi bi-search"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+            class="bi bi-search" viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+          </svg></i>
+      </button>
+      <input type="text" class="input-search" placeholder="What're You Looking for?" />
+    </div>
+    <div class="hero">
+      <hgroup>
+        <h1>We are creative</h1>
+        <h3>Get start your next awesome project</h3>
+      </hgroup>
+      <button class="btn btn-hero btn-lg" role="button"><a href="index.html"> LEARN MORE </a></button>
+    </div>
+    <div class="slider">
+      <img src="https://images.wallpaperscraft.com/image/single/mountains_trees_sky_338603_1600x900.jpg" alt="img1" />
+      <img src="https://images.wallpaperscraft.com/image/single/rock_silhouette_sea_338182_1600x900.jpg" alt="img2" />
+
+      <img src="https://images.wallpaperscraft.com/image/single/pier_house_horizon_338212_1600x900.jpg" alt="img3" />
+    </div>
+    <div class="indicator">
+      <span class="btn1 dots"></span>
+      <span class="btn2 dots"></span>
+      <span class="btn3 dots"></span>
+    </div>
+  </div>
+  <!-- //CAROUSEL -->
+
+  <!-- CARD AWAL -->
+  <!-- <div>
+    <h1 align="center" class="animasi-huruf">Hallo world </h1>
+  </div> -->
+  <!-- CARD AKHIR -->
+
+  <!-- FOOTER -->
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <img src="./ASSETS/images/Lambang-Unjani.png" style="margin:-10px 150px 30px" />
+      <p class="footer-company-name">© 2021 By Adrian Musa Alfauzan</p>
+    </div>
+
+    <div class="footer-center">
+      <div class="map">
+        <i class="fa fa-map-marker"></i>
+        <p><span>808 - Kota Bandung, Bldg. No. K - 5, Sector - 33</span> Bandung, Jawa Barat - 400710</p>
+      </div>
+
+      <div style="margin-left: -163px;">
+        <i class="fa fa-phone"></i>
+        <p>+62 878 2112 1706</p>
+      </div>
+      <div style="margin-left: -108px;">
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:stalkerxstalk@gmail.com">stalkerxstalk@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span style="margin-left: -20px;">About the company</span>
+        We offer training and skill building courses across Technology, Design, Management, Science and
+        Humanities.
+      </p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- /FOOTER -->
+  <script src="ASSETS/JS/responsivenavbar.js"></script>
+  <script src="ASSETS/JS/carousel.js"></script>
+  <script src="ASSETS/JS/profile.js"></script>
+</body>
+
+</html>
