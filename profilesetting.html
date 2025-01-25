@@ -68,68 +68,45 @@
     </nav>
     <!-- /NAVBAR -->
 
-    <!-- ORDER TICKET AWAL-->
+    <!-- PROFILE SETTING AWAL -->
     <div class='wrapper animated bounceIn'>
         <div class='company-info'>
-            <h3>Lawrence Web Design</h3>
-            <ul>
-                <li><i class="fa fa-road"></i> bdg bla bla</li>
-                <li><i class="fa fa-phone"></i> (+62) 812-2323-2211</li>
-                <li><i class="fa fa-envelope"></i> gmail.com</li>
-            </ul>
-            <p>Tiket yang dipesan secara online dengan jumlah rombongan di atas 24 orang akan memasuki waiting list. Hal
-                ini bertujuan agar menghindari insiden penghabisan kuota tiket oleh orang yang tidak bertanggung jawab.
-                Anda wajib menghubungi kontak yang tertera untuk meminta persetujuan konfirmasi tiket, dengan
-                menyebutkan nama lengkap, NIK, email, obyek wisata yang dituju, dan tanggal kunjungan. Tiket akan
-                disetujui jika data yang disebutkan sudah benar.</p>
+            <a href="#" class="nav-link active mt-auto">
+                <span><i class="far fa-user-circle"></i> Profile</span>
+                <img src="ASSETS/images/ACITYA.jpg" alt="Profile Picture" class="profile-picture">
+            </a>
         </div>
         <div class='contact'>
-            <form>
-                <p>
-                    <label>Name</label>
-                    <input type="text" name='name'>
-                </p>
-
-                <p>
-                    <label>Tanggal Kunjuan</label>
-                    <input type="date" name='tanggal'>
-                </p>
-
-                <p>
-                    <label>Email Adress</label>
-                    <input type="email" name='email'>
-                </p>
-
-                <p>
-                    <label>Phone Number</label>
-                    <input type="text" name='phone'>
-                </p>
-                <p>
-                    <label>Harga Ticket</label>
-                    <input type="number" name='ticket'>
-                </p>
-
-                <p class="full">
-                    <label for="dropdown">Pilih Wisata</label>
-                    <select name="dropdown" id="dropdown">
-                        <option value="select">Pilih salah satu</option>
-                        <option value="goabelanda">Goa Belanda</option>
-                        <option value="kawahputih">Kawah Putih</option>
-                        <option value="tebingcitatah">Tebing Citatah</option>
-                        <option value="tebingkraton">Tebing Kraton</option>
-                        <option value="guasunyaragi">Gua Sunyaragi</option>
-                        <option value="curugbatutemplek">Curug Batu Templek</option>
-                    </select>
-                </p>
-
-
-                <p class='full'>
-                    <button>Order</button>
-                </p>
-            </form>
+            <div class="col-md-9">
+                <form>
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" class="form-control" id="fullName">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telepon">Phone Number</label>
+                        <input type="number" class="form-control" id="telepon">
+                    </div>
+                    <div class="form-group">
+                        <label for="pass">Password</label>
+                        <input type="password" class="form-control" id="pass">
+                    </div>
+                    <div class="setting">
+                        <div class="settingsave">
+                            <button type="button" class="btn btn-primary">Save Changes</button>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-default">Cancel</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-    <!-- ORDER TICKET AKHIR -->
 
     <!-- FOOTER -->
     <footer class="footer-distributed">
